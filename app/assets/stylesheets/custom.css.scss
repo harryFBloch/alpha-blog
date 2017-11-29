@@ -1,4 +1,60 @@
-@import "bbootstrap-sprockets";
-@import "bbootstap";
+$navbar-default-bg: tomato;
 
-//= require bootstrap-sprockets
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+#logo{
+  float: left;
+  fon-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+  color: #fff;
+}
+
+.jumbotron{
+  background-image: url("FoodPicForJumbTron.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  margin-bottom: 0;
+  min-height: 50%;
+  height: 500px;
+}
+
+.footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+.footer a:hover {
+  color: #222;
+}
+.footer small {
+  float: left;
+}
+
+.footer ul {
+  float: right;
+  list-style: none;
+}
+
+.footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
