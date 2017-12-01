@@ -34,6 +34,15 @@ $navbar-default-bg: tomato;
   height: 500px;
 }
 
+.arcticle-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.title {
+ margin-top: 0; 
+}
+
 .footer{
   margin-top: 45px;
   padding-top: 5px;
@@ -56,5 +65,9 @@ $navbar-default-bg: tomato;
 .footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+h4 strong{
+  color: black;
 }
 
