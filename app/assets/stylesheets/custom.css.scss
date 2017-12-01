@@ -24,7 +24,7 @@ $navbar-default-bg: tomato;
 }
 
 .jumbotron{
-  background-image: url("FoodPicForJumbTron.jpeg");
+  background-image: asset-url("FoodPicForJumbTron.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
