@@ -114,3 +114,14 @@ h4 strong{
   list-style: none;
   padding-left: 0;
 }
+
+.badge {
+  background-color: tomato;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox{
+  width: auto !important;
+}
